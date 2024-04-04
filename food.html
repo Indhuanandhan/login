@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body{
+            background-image: url(./img/online2.jpg!sw800);
+            background-size: cover;
+        }
+        .aaa{
+            width:400px;
+            height:450px;
+            background-color: aqua;
+            margin-left: 400px;
+            padding-left: 20px;
+            padding-top: 5px;
+            margin-top: 80px;
+            background-image: url(./img/log.jpg);
+            background-size: cover;
+            
+        }
+        #input{
+            margin-left: 190px;
+            margin-top: -50px;
+            
+        }
+    </style>
+    <script src="./food.js"></script>
+</head><body>
+<div class="aaa">
+<h1>Customer Id &nbsp; 
+   <input type="text"></h1>
+    <h1>Weekdays&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+    </select></h1>
+    
+    <h1>Products</h1><div id="input">
+    <input type="checkbox" id="check-food">Food<br>
+    <input type="checkbox" id="check-beauty">Beauty<br>
+    <input type="checkbox" id="check-fresh">fresh<br>
+    <input type="checkbox" id="check-juice">juice<br>
+    <input type="checkbox" id="check-icecream">icecream<br>
+    </div>
+    <h2>Selected Items:</h2>
+    <ul id="selected-items"></ul>
+   <h2>Total Items: <span id="total-count">0</span></h2>
+</div>
+
+</div>
+</body>
+</html>
